@@ -106,4 +106,11 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <instance>default</instance>
         </interface>
     </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.lineage.health</name>
+        <interface>
+            <name>ILineageHealth</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
 </compatibility-matrix>
