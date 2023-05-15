@@ -85,6 +85,9 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             apktool_patch "${2}" "${MY_DIR}/blob-patches/PowerOffAlarm.patch" -s
             ;;
+        odm/etc/init/vendor-oplus-hardware-oplusSensor-V1-service.rc)
+            sed -i "/user/ s/system/root/g" "${2}"
+            ;;
         product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml)
             [ "$2" = "" ] && return 0
             sed -i "s/\/my_product/\/product/" "${2}"
