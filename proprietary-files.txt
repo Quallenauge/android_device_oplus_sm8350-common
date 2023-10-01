@@ -535,9 +535,6 @@ vendor/lib64/vendor.qti.ims.rcsuce@1.2.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so;MODULE_SUFFIX=_vendor
 
-# IRQ balance
-vendor/bin/msm_irqbalance
-
 # Kernel
 vendor/bin/init.kernel.post_boot.sh
 vendor/bin/init.qti.kernel.sh
