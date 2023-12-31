@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021-2023 The LineageOS Project
+# Copyright (C) 2021-2024 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -110,6 +110,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
+    android.frameworks.stats@1.0.vendor \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64 \
     libutilscallstack.vendor:64 \
@@ -140,6 +141,8 @@ PRODUCT_PACKAGES += \
     libsdmcore \
     libsdmutils \
     libtinyxml \
+    libtinyxml2 \
+    memtrack.default \
     vendor.display.config@1.0 \
     vendor.display.config@1.15.vendor \
     vendor.display.config@2.0 \
