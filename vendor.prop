@@ -141,9 +141,6 @@ ro.surface_flinger.wcg_composition_dataspace=143261696
 # Incremental FS
 ro.incremental.enable=yes
 
-# Netflix
-ro.netflix.bsp_rev=Q875-32408-1
-
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 
