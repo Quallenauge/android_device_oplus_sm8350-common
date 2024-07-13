@@ -144,7 +144,6 @@ PRODUCT_PACKAGES += \
     libsdmutils \
     libtinyxml \
     libtinyxml2 \
-    memtrack.default \
     vendor.display.config@1.0 \
     vendor.display.config@1.15.vendor \
     vendor.display.config@2.0 \
