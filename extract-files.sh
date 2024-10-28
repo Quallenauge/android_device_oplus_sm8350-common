@@ -67,6 +67,7 @@ if [ -z "${SRC}" ]; then
 fi
 
 function blob_fixup() {
+    [ "$2" = "" ] && return 0
     case "${1}" in
         odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff)
             grep -q libshims_fingerprint.oplus.so "${2}" || "${PATCHELF}" --add-needed libshims_fingerprint.oplus.so "${2}"
